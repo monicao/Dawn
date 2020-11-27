@@ -53,6 +53,16 @@
     white-space: nowrap;
 }
 
+@media (max-width: 767px) {
+    .feed-title {
+        font-size: 1.3rem;
+    }
+
+    .feed-length {
+        font-size: 1.3rem;
+    }
+}
+
 .feed-right {
     display: flex;
     align-items: center;
